@@ -10,8 +10,12 @@ TabularTables.Books = new Tabular.Table({
   name: "BookList",
   collection: Books,
   columns: [
-    {data: "title", title: "Title"},
+    {data: "title", title: "Title", className: "titleColumn" },
     {data: "author", title: "Author"},
     {data: "url", title: "Web address"}
-  ]
+  ],
 });
+
+
+
+
