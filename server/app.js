@@ -8,7 +8,12 @@ Meteor.startup(function () {
       {title: "Meteor Tutorial", author: "Matthew Platts", url: "https://www.discovermeteor.com/"},
       {title: "Discover in Action", author: "Stephen Hochaus and Manuel Schoebel", url: "http://www.meteorinaction.com/"},
       {title: "Meteor Cookbook", author: "Abigail Watson", url: "https://github.com/awatson1978/meteor-cookbook/blob/master/table-of-contents.md"},
-      {title: "Meteor Cookbook", author: "Matthew Watson", url: "http://www.google.com"}];
+      {title: "asdasd Cookbook", author: "123 Watson", url: "http://www.google.com"},
+      {title: "asdasd Cookbook", author: "123 Watson", url: "http://www.google.com"},
+      {title: "asdasd Cookbook", author: "123 Watson", url: "http://www.google.com"},
+      {title: "asdasd Cookbook", author: "123 Watson", url: "http://www.yahoo.com"},
+
+      ];
     _.each(books, function (book) {
       Books.insert(book);
     });

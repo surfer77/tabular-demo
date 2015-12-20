@@ -14,7 +14,11 @@ TabularTables.Books = new Tabular.Table({
     {data: "author", title: "Author"},
     {data: "url", title: "Web address"}
   ],
-  processing: true,
+ regex: false,
+paging: false,
+search: {
+	smart: true,},
+searchDelay: 2000,
 });
 
 

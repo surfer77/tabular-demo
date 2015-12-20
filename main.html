@@ -9,12 +9,35 @@
 </body>
 
 <template name="main">
-  {{> tabular table=TabularTables.Books class="table table-striped table-bordered table-condensed"}}
   
 
- <input type="text" name="lastname" id="sel1">
-
- <input type="text" name="lastname" id="sel2">
+<div class="form-group">
+  <label for="sel1">Select list:</label>
+  <select class="form-control" id="sel1">
+      <option></option>
+    <option>Cookbook</option>
+    <option>Abigail Watson</option>
+    <option>Airi</option>
+  </select>
+</div>
+<div class="form-group">
+  <label for="sel1">Select list:</label>
+  <select class="form-control" id="sel2">
+      <option></option>
+    <option>Aibgail Watson</option>
+    <option>123 Watson</option>
+    <option>accountant</option>
+  </select>
+</div>
+<div class="form-group">
+  <label for="sel1">Select list:</label>
+  <select class="form-control" id="sel3">
+      <option></option>
+    <option>http://www.google.com</option>
+    <option>http://www.yahoo.com</option>
+    <option>Tokyo</option>
+  </select>
+</div>
 
 
 <table id="example" class="display" cellspacing="0" width="100%">
